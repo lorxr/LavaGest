@@ -20,7 +20,8 @@ public abstract class Usuario implements Serializable {
 		setId(id);
 	}
 	
-	public Usuario (String nome, String sobrenome, String telefone, String cpf, String senha) {
+	public Usuario (Long id, String nome, String sobrenome, String telefone, String cpf, String senha) {
+		setId(id);
 		setNome(nome);
 		setSobrenome(sobrenome);
 		setTelefone(telefone);
